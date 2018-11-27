@@ -1,0 +1,59 @@
+.cell {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-width: 1px;
+  margin: 1px;
+  border-style: solid;
+  background: #e6e6e6;
+  color: #716e6e;
+
+  font-size: 16px;
+  vertical-align: top;
+  transition: background-color 200ms linear,
+              border-color 200ms linear;
+
+  outline: none;
+  font-weight: 600;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.cell:not(.cell__opened):hover {
+  background: #f1f1f1;
+}
+
+.cell__opened {
+  background: #777070;
+  border-color: #211c1c;
+  box-shadow: inset 1px 1px 4px #c5c5c5;
+}
+
+.cell__opened:hover {
+  background: #d6d6d6;
+}
+
+.cell__exploded {
+  background: #000;
+  border-color: #d44444;
+  border-width: 2px;
+}
+
+.cell__exploded:hover {
+  background: #fff;
+}
+
+.cell__count-1 {
+  color: #1875f1;
+}
+
+.cell__count-2 {
+  color: #ff6200;
+}
+
+.cell__count-3 {
+  color: #ff2700;
+}
+
+.cell__count-4 {
+  color: purple;
+}

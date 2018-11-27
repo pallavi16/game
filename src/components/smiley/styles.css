@@ -1,0 +1,15 @@
+.avatar {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.avatar:hover{
+  transition: transform 0.3s;
+}
+
+.avatar:hover{
+  transform: scale(1.5);
+}
